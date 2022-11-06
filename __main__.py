@@ -11,11 +11,11 @@ print("SEJsonServer - version 2.1.0")
 print(text1)
 app = Flask(__name__)
 # 打开数据库连接
-db = pymysql.connect(host='mysql.sqlpub.com',
-                     port=3306,
-                     user='sestudio',
-                     password='96312c734e441b40',
-                     database='csse_all')
+db = pymysql.connect(host='',
+                     port=,
+                     user='',
+                     password='',
+                     database='')
 # 使用 cursor() 方法创建一个游标对象 cursor
 cursor = db.cursor()
 @app.route('/')
