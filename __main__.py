@@ -150,5 +150,5 @@ def find():
             return '<p>账号:%s</p><p>用户名:%s</p><p>bp:%s</p><p>封号(0:正常/1:封号):%s</p>' % (account, name, userbp, fenghao)  # 判断
     except:
         return '<p>服务器错误</p>'
-#server = pywsgi.WSGIServer(('192.168.1.43',8888),app)
+#server = pywsgi.WSGIServer(('0.0.0.0',0),app)
 #server.serve_forever()
